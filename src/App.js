@@ -18,7 +18,7 @@ function App() {
           <Route path="/surah/:id" component={DetailSurah} />
           <Route path="/search" component={SearchSurah} />
           <Route path="/bookmark" component={Bookmark} />
-          
+          <Route path="/about" component={About} />
         </Switch>
       </Router>
     </>
